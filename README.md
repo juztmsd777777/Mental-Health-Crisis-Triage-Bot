@@ -1,88 +1,76 @@
-# 🏥 Remote Patient Monitoring & AI Triage System
+# 🧠 AI Mental Health Support System Chatbot
 
-A Remote Patient Monitoring (RPM) platform designed to monitor post-operative patients after hospital discharge and detect early signs of complications using automated risk detection.
+An AI-powered chatbot designed to provide **basic mental health support, emotional assistance, and early distress detection** through conversation.
 
-This system bridges the gap between **hospital discharge and follow-up consultation** by collecting patient health data, analyzing it, and alerting clinicians when potential risks appear.
+This system allows users to express their feelings and receive supportive responses while detecting signs of emotional distress and suggesting appropriate coping strategies or professional help when necessary.
 
 ---
 
 # 📌 Problem Statement
 
-In many hospitals, patients are discharged with printed care instructions and asked to contact doctors if they feel unwell. However:
+Mental health issues such as stress, anxiety, and depression are increasing worldwide. However:
 
-- Doctors have **no real-time visibility** into patient recovery.
-- Patients often fail to recognize early symptoms of complications.
-- Manual follow-up calls from hospitals are **inconsistent and time-consuming**.
-- Complications like infection or internal bleeding are detected **too late**, increasing readmission rates.
+- Many people hesitate to seek professional help.
+- Mental health professionals are limited.
+- Early emotional distress often goes unnoticed.
 
-This project aims to solve this problem by creating an **automated remote monitoring system** that tracks patient recovery continuously.
+This project provides an **accessible AI chatbot that offers initial emotional support and guidance** while encouraging users to seek professional help when needed.
 
 ---
 
 # 🎯 Objectives
 
-- Monitor post-surgical patients remotely
-- Collect vital health data from patients
-- Detect abnormal patterns using automated triage logic
-- Alert caregivers and clinicians when risks appear
-- Provide clinicians with a dashboard to track patient recovery
+- Provide a safe space for users to express their feelings.
+- Detect emotional distress from user messages.
+- Suggest coping techniques and mental health resources.
+- Encourage professional help when necessary.
+- Provide a responsive and simple chat interface.
 
 ---
 
-# ⚙️ System Features
+# ⚙️ Key Features
 
-## 1️⃣ Patient Data Monitoring
-Patients can submit health updates such as:
+## 💬 Conversational Chat Interface
+Users can interact with the chatbot in natural language to discuss:
 
-- Heart rate
-- Temperature
-- Pain levels
-- Recovery status
-- Symptoms
-- Incision images
+- Stress
+- Anxiety
+- Sadness
+- Emotional struggles
 
 ---
 
-## 2️⃣ Automated Risk Detection
+## 🧠 Sentiment & Emotion Detection
 
-The system analyzes incoming data and detects risk levels using:
+The chatbot analyzes user messages to detect emotional states such as:
 
-- Clinical threshold rules
-- Symptom severity analysis
-- Trend detection
-
-Risk Levels:
-
-- 🟢 Low Risk
-- 🟡 Moderate Risk
-- 🔴 High Risk
+- Anxiety
+- Stress
+- Depression
+- Neutral mood
 
 ---
 
-## 3️⃣ Clinician Dashboard
+## 🚨 Crisis Detection
 
-Doctors can monitor:
+If the chatbot detects **severe emotional distress**, it can:
 
-- List of active patients
-- Risk classification
-- Health trends
-- Patient alerts
-
----
-
-## 4️⃣ Caregiver Notifications
-
-Caregivers are notified when:
-
-- Medication doses are missed
-- Symptoms worsen
-- Emergency attention may be required
+- Recommend contacting a mental health professional
+- Provide emergency helpline information
+- Encourage users to seek immediate help
 
 ---
 
-## 5️⃣ Secure Patient Records
+## 📊 Mood Tracking
 
-The system stores patient data securely using encrypted storage mechanisms to ensure **health data protection**.
+Users can log their emotional states over time to track mental well-being trends.
+
+---
+
+## 🔐 Privacy Focused
+
+- Conversations are stored securely.
+- User data protection is prioritized.
 
 ---
 
